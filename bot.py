@@ -58,9 +58,17 @@ async def koks(ctx):
     now = datetime.utcnow()
 
     last_used = user_cooldowns.get(user_id)
-    if last_used and (now - last_used) < timedelta(hours=24):
-        await ctx.send("❌ Kas per daug tas nesveika! Kitoks galėsi tik po 24 valandų ❌")
-        return
+    if last_used:
+        passed = now - last_used
+        cooldown = timedelta(hours=24)
+
+        if passed < cooldown:
+            remaining = cooldown - passed
+            await ctx.send(
+                f"❌ Kas per daug tas nesveika! Kitoks galėsi būti tik po 24 valandų ❌\n"
+                f"Liko: {remaining}"
+            )
+            return
 
     media_file = random.choice(available_media)
     message_text = media_messages.get(media_file, "")
