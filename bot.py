@@ -41,6 +41,20 @@ media_messages = {
     "19.png": "Šiandien tu geroj stadijoj MARKA 🤗",
     "20.png": "Šiandien tu tj leksiu namo, nors balius katik prasidejo MARKA 👋",
     "21.png": "Šiandien tu bandantis nusitraukti, bet sunkiai sekasi VITAS 😠",
+    "22.png": "Šiandien tu narkamanas KOSTAS 😶‍🌫️",
+    "23.png": "Šiandien tu grybautojas VERSIS 🍄",
+    "24.png": "Šiandien tu gaudantis išganyma MARKA 👼🏿",
+    "25.png": "Šiandien tu išvarai demonus MARKA 😈",
+    "26.png": "Šiandien tu truopnas vyrs EDIS 😎",
+    "27.png": "Šiandien tu pisi siurpo su pantalonais JOKŪBS 🩲",
+    "28.png": "Šiandien tu deklamuoji eilerašti, nes po baidariu dar neatleidzia MARKA 👂",
+    "29.png": "Šiandien tu norintis pisti siurpo MYKA 💪",
+    "30.png": "Šiandien tu išskrides LUKAS 🪽",
+    "31.png": "Šiandien tu prie dievo LUKAS 🙏🏿",
+    "32.png": "Šiandien tu gauni šiurpo LUKAS 🥹",
+    "33.png": "Šiandien tu baudi tubzika MYKA 🤮",
+    "34.png": "Šiandien tu tuoj varysi vemt MYKA 🫡",
+    "35.png": "Šiandien tu ohota i rybalka LUKAs 🐟",
 }
 
 available_media = list(media_messages.keys())
