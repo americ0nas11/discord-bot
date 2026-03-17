@@ -54,7 +54,9 @@ media_messages = {
     "32.png": "Šiandien tu gauni šiurpo LUKAS 🥹",
     "33.png": "Šiandien tu baudi tubzika MYKA 🤮",
     "34.png": "Šiandien tu tuoj varysi vemt MYKA 🫡",
-    "35.png": "Šiandien tu ohota i rybalka LUKAs 🐟",
+    "35.png": "Šiandien tu ohota i rybalka LUKAS 🐟",
+    "36.png": "Šiandien tu aciputes, nes i tave ziuri mergytes ARNAS 🎤",
+    "37.png": "Šiandien tu pisi siurpo karaoke JOKŪBS 🎤",
 }
 
 available_media = list(media_messages.keys())
